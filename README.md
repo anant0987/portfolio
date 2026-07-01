@@ -50,11 +50,7 @@ Example:
 ```
 Portfolio/
 │
-├── index.html
-├── style.css
-├── script.js
-├── myphoto.jpg
-├── preview.png
+├── index.html 
 └── README.md
 ```
 
@@ -65,7 +61,7 @@ Portfolio/
 ### Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/portfolio.git
+git clone https://github.com/anant0987/portfolio.git
 ```
 
 ### Open the project

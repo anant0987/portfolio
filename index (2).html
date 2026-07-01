@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anant Jhunjhunwala — CSE Student</title>
+<meta name="description" content="Portfolio of Anant Jhunjhunwala, a Computer Science Engineering student.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="scrollBar"></div>
+<div class="margin-rule" aria-hidden="true"></div>
+<div class="toast" id="toast"></div>
+
+<nav class="dot-nav" id="dotNav">
+  <a href="#home" data-id="home"><span>Home</span></a>
+  <a href="#about" data-id="about"><span>About</span></a>
+  <a href="#projects" data-id="projects"><span>Projects</span></a>
+  <a href="#skills" data-id="skills"><span>Skills</span></a>
+  <a href="#certificates" data-id="certificates"><span>Certificates</span></a>
+  <a href="#contact" data-id="contact"><span>Contact</span></a>
+</nav>
+
+<header id="siteHeader">
+  <div class="wrap">
+    <nav>
+      <a href="#home" class="logo">anant<span>.</span>jjw</a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#certificates">Certificates</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav-right">
+        <button class="icon-btn" id="themeToggle" title="Toggle dark mode" aria-label="Toggle dark mode">◐</button>
+        <button class="icon-btn menu-toggle" id="menuToggle" title="Menu" aria-label="Open menu">☰</button>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<section class="hero" id="home">
+  <div class="hero-blob blob-a"></div>
+  <div class="hero-blob blob-b"></div>
+  <div class="hero-blob blob-c"></div>
+  <div class="wrap">
+    <span class="page-num mono">p.01</span>
+    <div class="hero-grid">
+      <div class="reveal in">
+        <span class="eyebrow mono">// open to internships</span>
+        <h1>Hi, I'm<br><em>Anant</em> Jhunjhunwala</h1>
+        <span class="typewriter mono" id="typewriter"></span>
+        <div class="tag-row">
+          <span class="tag">CSE Student</span>
+          <span class="tag">AI &amp; ML</span>
+          <span class="tag">Web Development</span>
+        </div>
+        <div class="btn-row">
+          <a href="#projects" class="btn btn-primary">View projects</a>
+          <a href="#contact" class="btn btn-ghost">Get in touch</a>
+        </div>
+        <div class="stats-strip">
+          <div class="stat"><div class="num" data-count="1">0</div><div class="label">Projects built</div></div>
+          <div class="stat"><div class="num c2" data-count="4">0</div><div class="label">Certifications</div></div>
+          <div class="stat"><div class="num c3" data-count="4">0</div><div class="label">Languages used</div></div>
+          <div class="stat"><div class="num c4" data-count="2029">0</div><div class="label">Graduating</div></div>
+        </div>
+      </div>
+      <div class="avatar-wrap reveal in">
+        <div class="dot-deco dd1"></div>
+        <div class="dot-deco dd2"></div>
+        <div class="dot-deco dd3"></div>
+        <div class="avatar"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU1nCuTPMAJM0-jTg68zn6kJOC3UFfcQRXBML2wOHTng&s=10" alt="Anant Jhunjhunwala"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="wrap">
+    <span class="page-num mono">p.02</span>
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <span class="eyebrow mono">// about</span>
+        <h2 style="font-size:32px; margin-bottom:18px;">#Currently studying#</h2>
+        <p>I'm a Computer Science Engineering student at OP Jindal University.</p>
+        <p>Now i am exploring github</p>
+        <span class="now-badge">curretly finding my uture gole</span>
+      </div>
+      <div class="entry-list reveal">
+        <div class="entry">
+          <p class="entry-period mono">2025 — 2029</p>
+          <h4>B.Tech, Computer Science Engineering</h4>
+          <p>OP Jindal University — core focus on data structures, algorithms, discrete math, and foundational AI.</p>
+        </div>
+        <div class="entry">
+          <p class="entry-period mono">ongoing</p>
+          <h4>Open-source contributor</h4>
+          <p>Fixing bugs and adding small features to web tooling projects on GitHub.</p>
+        </div>
+        <div class="entry">
+          <p class="entry-period mono">want to Do</p>
+          <h4>Freelance web developer</h4>
+          <p>Building simple, fast websites for small projects and individual clients.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="wrap">
+    <span class="page-num mono">p.03</span>
+    <div class="section-head reveal">
+      <span class="eyebrow mono">// selected work</span>
+      <h2>Projects</h2>
+    </div>
+
+    <div class="filter-row reveal">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="ai">AI &amp; ML</button>
+      <button class="filter-btn" data-filter="web">Web</button>
+      <button class="filter-btn" data-filter="systems">Systems</button>
+    </div>
+
+    <div class="project-grid" id="projectGrid">
+
+      <div class="card reveal tilt" data-category="web">
+        <div class="card-tags"><span class="card-tag">HTML</span></div>
+        <h4>This Portfolio</h4>
+        <p>The site you're looking at right now — handwritten HTML with dark mode, scroll reveals, and zero frameworks.</p>
+        <a href="https://github.com/anant0987" target="_blank" class="card-link">View on GitHub →</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="wrap">
+    <span class="page-num mono">p.04</span>
+    <div class="section-head reveal">
+      <span class="eyebrow mono">// toolkit</span>
+      <h2>What I build with</h2>
+    </div>
+
+    <div class="skills-grid reveal">
+      <div class="skill-group c1">
+        <h4>Languages</h4>
+        <div class="pill-list">
+          <span class="pill" data-tip="Daily driver">Python</span>
+        </div>
+      </div>
+      <div class="skill-group c2">
+        <h4>Web</h4>
+        <div class="pill-list">
+          <span class="pill" data-tip="Semantic markup">HTML5</span>
+          <span class="pill" data-tip="Styling &amp; layout">CSS3</span>
+          <span class="pill" data-tip="Dynamic behavior">JavaScript</span>
+        </div>
+      </div>
+      <div class="skill-group c4">
+        <h4>Tools</h4>
+        <div class="pill-list">
+          <span class="pill" data-tip="Branching, PRs, merges">Git &amp; GitHub</span>
+          <span class="pill" data-tip="Where the code happens">VS Code</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="certificates">
+  <div class="wrap">
+    <span class="page-num mono">p.05</span>
+    <div class="section-head reveal">
+      <span class="eyebrow mono">// credentials</span>
+      <h2>Certificates</h2>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="wrap">
+    <span class="page-num mono">p.06</span>
+    <div class="contact-grid">
+      <div class="reveal">
+        <span class="eyebrow mono">// get in touch</span>
+        <h2>Let's talk</h2>
+        <p>Have a project, an internship opportunity, or just want to say hi? Reach out — I read every message.</p>
+        <span class="reply-note">→ usually reply within a day or two</span>
+        <div class="contact-list">
+          <a href="mailto:anantjhunjhunwala344@gmail.com" class="contact-pill">
+            <div class="pill-icon">✉</div>
+            <div class="pill-text"><p>Email</p><p>anantjhunjhunwala344@gmail.com</p></div>
+          </a>
+          <a href="https://linkedin.com/in/anantjhunjhunwala" target="_blank" class="contact-pill">
+            <div class="pill-icon">in</div>
+            <div class="pill-text"><p>LinkedIn</p><p>anantjhunjhunwala</p></div>
+          </a>
+          <a href="https://github.com/anant0987" target="_blank" class="contact-pill">
+            <div class="pill-icon">◇</div>
+            <div class="pill-text"><p>GitHub</p><p>anant0987</p></div>
+          </a>
+        </div>
+      </div>
+
+      <div class="form-card reveal">
+        <h4 style="margin-bottom:20px; font-size:18px;">Send a message</h4>
+        <form action="https://formspree.io/f/mvzjbgaj" method="POST">
+          <div class="form-row">
+            <div class="field"><label for="fName">Your name</label><input id="fName" name="name" required placeholder="Enter your name"></div>
+            <div class="field"><label for="fEmail">Your email</label><input id="fEmail" name="email" type="email" required placeholder="Enter your email"></div>
+          </div>
+          <div class="field"><label for="fSubject">Subject</label><input id="fSubject" name="subject" required placeholder="subtitle"></div>
+          <div class="field"><label for="fBody">Message</label><textarea id="fBody" name="message" rows="5" required placeholder="Tell me a bit about it..."></textarea></div>
+          <button type="submit" class="btn btn-primary" style="width:100%; justify-content:center;">Send message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap" style="padding-left:28px;">
+    <a href="#home" class="logo">anant<span>.</span>jjw</a>
+    <ul class="footer-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="footer-socials">
+      <a href="https://github.com/anant0987" target="_blank" class="icon-btn" title="GitHub">G</a>
+      <a href="https://linkedin.com/in/anantjhunjhunwala" target="_blank" class="icon-btn" title="LinkedIn">in</a>
+      <a href="mailto:anantjhunjhunwala344@gmail.com" class="icon-btn" title="Email">✉</a>
+    </div>
+    <p class="footer-note">© 2026 Anant Jhunjhunwala 🥨</p>
+  </div>
+</footer>
+
+<button id="backToTop" aria-label="Back to top">⬆</button>
+
+<script src="script.js"></script>
+</body>
+</html>
