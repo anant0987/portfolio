@@ -1,20 +1,18 @@
 # 🌐 Anant Jhunjhunwala - Portfolio Website
 
-A modern, responsive personal portfolio website built using **HTML, CSS, and JavaScript** to showcase my skills, projects, and journey as a Computer Science Engineering student.
+A modern, responsive personal portfolio website built using **HTML, CSS, and JavaScript** to showcase my projects, and journey as a Computer Science Engineering student.
 
 ## 🚀 Live Demo
 
-🔗 Add your deployed website link here:
-https://your-portfolio-link.vercel.app
 
+still not deployed 
 ---
 
 ## 📸 Preview
 
 > Add a screenshot of your portfolio here.
 
-Example:
-![Portfolio Preview](preview.png)
+(preview.png)
 
 ---
 
@@ -39,9 +37,8 @@ Example:
 
 - HTML5
 - CSS3
-- JavaScript (Vanilla)
+- JavaScript
 - Formspree
-- Google Fonts
 
 ---
 
@@ -51,7 +48,12 @@ Example:
 Portfolio/
 │
 ├── index.html 
-└── README.md
+├── preview.png
+├── README.md
+├── script.js
+└── style.css
+
+
 ```
 
 ---
@@ -63,14 +65,6 @@ Portfolio/
 ```bash
 git clone https://github.com/anant0987/portfolio.git
 ```
-
-### Open the project
-
-Simply open **index.html** in your browser.
-
-No installation required.
-
----
 
 ## 📧 Contact
 
@@ -120,4 +114,4 @@ This project is licensed under the MIT License.
 
 ---
 
-### Made with ❤️ by Anant Jhunjhunwala
+### Made with 😎 by Anant Jhunjhunwala
