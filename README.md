@@ -103,12 +103,4 @@ Fork the repository and submit a Pull Request.
 
 If you like this project, don't forget to give it a **⭐ Star** on GitHub.
 
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
-
----
-
 ### Made with 😎 by Anant Jhunjhunwala
