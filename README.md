@@ -9,10 +9,7 @@ still not deployed
 ---
 
 ## 📸 Preview
-
-> Add a screenshot of your portfolio here.
-
-(preview.png)
+<img src="preview.png" alt="screeshort"></div>
 
 ---
 
