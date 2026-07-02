@@ -3,7 +3,7 @@
 A modern, responsive personal portfolio website built using **HTML, CSS, and JavaScript** to showcase my projects, and journey as a Computer Science Engineering student.
 
 ## 🚀 Live Demo
-https://anant0987.github.io/portfolio/ 
+<a href="https://anant0987.github.io/portfolio/ " target="_blank" class="card-link">click to view live demo</a>
 ---
 
 ## 📸 Preview
