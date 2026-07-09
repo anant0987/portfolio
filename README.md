@@ -42,7 +42,10 @@ A modern, responsive personal portfolio website built using **HTML, CSS, and Jav
 ```
 Portfolio/
 │
-├── index.html 
+├── index.html
+├── licence.md
+├── myphoto.png
+├── weather.png 
 ├── preview.png
 ├── README.md
 ├── script.js
