@@ -7,7 +7,7 @@ A modern, responsive personal portfolio website built using **HTML, CSS, and Jav
 ---
 
 ## 📸 Preview
-<img src="preview.png" alt="screeshort"></div>
+<img src="image/preview.png" alt="screenshot">
 
 ---
 
@@ -42,18 +42,16 @@ A modern, responsive personal portfolio website built using **HTML, CSS, and Jav
 ```
 Portfolio/
 │
-├──image
-│   ├──favicon.png
-    ├──myphoto.png
-    ├──preview.png
-    ├──weather.png
+├── image
+│   ├── favicon.png
+│   ├── myphoto.png
+│   ├── preview.png
+│   ├── Weather.png
 ├── index.html
-├── licence.md
+├── internship.html
 ├── README.md
 ├── script.js
 └── style.css
-
-
 ```
 
 ---
