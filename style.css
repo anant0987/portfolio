@@ -3,7 +3,7 @@
   --bg-alt: #F2ECDD;
   --ink: #1C1B19;
   --ink-soft: #6B655C;
-  --accent: #4338CA;
+  --accent: #695edd;
   --accent-soft: color-mix(in srgb, var(--accent) 14%, transparent);
   --accent-2: #0D9488;
   --accent-2-soft: color-mix(in srgb, var(--accent-2) 14%, transparent);
@@ -48,7 +48,8 @@ body{
 
 ::selection{ background:var(--accent); color:#fff; }
 
-h1,h2,h3,h4{ font-family:'Fraunces', serif; font-weight:600; letter-spacing:-0.01em; line-height:1.1; }
+.h-headline, h1, h2, h3, h4{ }
+h1,h2,h3,h4{ font-family:'Bebas Neue','Black Han Sans','Fraunces', serif; font-weight:700; letter-spacing:0.06em; text-transform:uppercase; line-height:1.05; }
 .mono{ font-family:'IBM Plex Mono', monospace; }
 a{ color:inherit; }
 img{ max-width:100%; display:block; }
