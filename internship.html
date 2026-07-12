@@ -1,38 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Internship Projects</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Internship Projects</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="image/favicon.png" type="image/png">
 </head>
 <body>
-    <h1>Internship Projects</h1>
-    <p>This is a simple page to showcase my internship projects.</p>
+  <div id="scrollBar"></div>
+  <div class="margin-rule" aria-hidden="true"></div>
 
-    <section id="projects">
-  <div class="wrap">
-    <span class="page-num mono">p.03</span>
-    <div class="section-head reveal">
-      <span class="eyebrow mono">// selected work</span>
-      <h2>PROJECTS</h2>
-    </div>
-
-    <div class="filter-row reveal">
-      <button class="filter-btn active" data-filter="all">All</button>
-      <button class="filter-btn" data-filter="ai">AI &amp; ML</button>
-      <button class="filter-btn" data-filter="web">Web</button>
-      <button class="filter-btn" data-filter="systems">Systems</button>
-    </div>
-
-    <div class="project-grid" id="projectGrid">
-
-      <div class="card reveal tilt" data-category="web">
-        <div class="card-tags"><span class="card-tag">HTML</span></div>
-        <h2>This Portfolio</h2>
-        <img src="image/preview.png" alt="Portfolio screenshot" class="card-img">
-        <p>The site you're looking at right now — handwritten HTML with dark mode, scroll reveals, and zero frameworks.</p>
-        <a href="https://anant0987.github.io/portfolio/ " target="_blank" class="card-link">click to view </a>
+  <header id="siteHeader">
+    <div class="wrap">
+      <a href="index.html" class="logo"><span>Anant</span> Portfolio</a>
+      <div class="nav-right">
+        <button id="menuToggle" class="menu-toggle icon-btn" aria-label="Toggle navigation">☰</button>
+        <nav class="nav-links" id="navLinks">
+          <a href="index.html">Home</a>
+        </nav>
+        <button id="themeToggle" class="icon-btn" aria-label="Toggle theme">◐</button>
       </div>
+    </div>
+  </header>
+  <main>
+    <section class="section-head">
+      <div class="wrap">
+        <h2>Projects</h2>
+      </div>
+    </section>
+    <section id="projects" class="section">
+      <div class="wrap">
+        <div class="project-grid" id="projectGrid">
+          <article class="card reveal tilt" data-category="ai">
+            <div class="card-tags"><span class="card-tag">Python</span><span class="card-tag">AI</span></div>
+            <h4>Rule-Based AI Chatbot</h4>
+            <p>A chatbot project with rule-based responses, session history, learning capability, and JSON-backed memory for persistence.</p>
+            <a href="https://github.com/anant0987/Anant-Task1-decodelab" target="_blank" rel="noreferrer" class="card-link">Open project repo</a>
+          </article>
 
+          <article class="card reveal tilt" data-category="ai">
+            <div class="card-tags"><span class="card-tag">Python</span><span class="card-tag">ML</span></div>
+            <h4>Data Classification with AI</h4>
+            <p>A machine learning workflow using the Iris dataset, KNN classification, evaluation reporting, and dataset visualization.</p>
+            <a href="https://github.com/anant0987/Anant-task2-decodelab" target="_blank" rel="noreferrer" class="card-link">Open project repo</a>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <button id="backToTop" class="icon-btn" aria-label="Back to top">↑</button>
+  <div id="toast" aria-live="polite"></div>
+
+  <script src="script.js"></script>
 </body>
 </html>
