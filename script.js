@@ -18,8 +18,15 @@ themeToggle.addEventListener('click', () => {
 
 const menuToggle = document.getElementById('menuToggle');
 const navLinks = document.getElementById('navLinks');
-menuToggle.addEventListener('click', () => navLinks.classList.toggle('open'));
-navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => navLinks.classList.remove('open')));
+menuToggle.addEventListener('click', () => {
+  navLinks.classList.toggle('open');
+  const expanded = navLinks.classList.contains('open');
+  menuToggle.setAttribute('aria-expanded', expanded);
+});
+navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+  navLinks.classList.remove('open');
+  menuToggle.setAttribute('aria-expanded', 'false');
+}));
 
 const header = document.getElementById('siteHeader');
 const sections = document.querySelectorAll('section');
